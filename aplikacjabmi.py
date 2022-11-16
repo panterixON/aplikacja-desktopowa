@@ -117,3 +117,4 @@ reset_btn = Button(
 )
 reset_btn.pack(side=LEFT)
 root.mainloop()
+# olaf karaś kompany pozdrawia c:
