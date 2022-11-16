@@ -1,18 +1,18 @@
 import tkinter as tk
 root = tk.Tk()
 label = tk.Label(text="Oblicz swoje bmi")
-label = tk.Label(text="Wzrost")
+label2 = tk.Label(text="Wzrost")
 entry1 = tk.Entry()
-label = tk.Label(text="Waga")
+label3 = tk.Label(text="Waga")
 entry2 = tk.Entry()
-label.pack()
+label2.pack()
 entry1.pack()
-label.pack()
+label3.pack()
 entry2.pack()
+B = tk.Button(text ="Oblicz")
 
-
-
-root.geometry("300x300")
+root.geometry("300x200")
 root.title("Oblicz swoje bmi")
 root.iconbitmap("")
+root.resizable(False,False)
 root.mainloop()
