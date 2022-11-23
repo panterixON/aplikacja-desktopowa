@@ -48,33 +48,6 @@ age_tf = Entry(
 )
 age_tf.grid(row=1, column=2, pady=5)
 
-gen_lb = Label(
-    frame,
-    text='Wybierz płeć'
-)
-gen_lb.grid(row=2, column=1)
-
-frame2 = Frame(
-    frame
-)
-frame2.grid(row=2, column=2, pady=5)
-
-male_rb = Radiobutton(
-    frame2,
-    text = 'M',
-    variable = var,
-    value = 1
-)
-male_rb.pack(side=LEFT)
-
-female_rb = Radiobutton(
-    frame2,
-    text = 'K',
-    variable = var,
-    value = 2
-)
-female_rb.pack(side=RIGHT)
-
 height_lb = Label(
     frame,
     text="wpisz wysokość(cm)  "
