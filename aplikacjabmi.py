@@ -39,7 +39,7 @@ frame.pack(expand=True)
 
 age_lb = Label(
     frame,
-    text="Wpisz wiek(2 - 120)"
+    text="Wpisz wiek"
 )
 age_lb.grid(row=1, column=1)
 
