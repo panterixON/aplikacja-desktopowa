@@ -1,1 +1,0 @@
-ta aplikacja będzie obliczała twoje bmi 
